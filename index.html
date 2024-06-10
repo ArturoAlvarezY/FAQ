@@ -10,56 +10,58 @@
     <div class="sideBar">
         <h2 class="fixedh2">Documentation Bar</h2>
         <ul>
-            <li>Desarrollo Web FrontEnd</li>
-            <li>Desarrollo Web BackEnd</li>
-            <li>JavaScript</li>
+            <li><a href="#frontEnd">Desarrollo Web FrontEnd</li></a>
+            <li><a href="#htmlBasis">HTML</li></a> 
+            <li><a href="#backEnd">Desarrollo web Back-end</a></li>
             <li>CSS</li>
         </ul>
     </div>
     <div class="description">
- <h2>Desarrollo Web FrontEnd</h2>
+ <h2 id="frontEnd">Desarrollo Web FrontEnd</h2>
     <p>El desarrollo web frontend se refiere a la creación y diseño de la interfaz de usuario (UI) de un sitio o aplicación web, la parte con la que los usuarios interactúan directamente. Utiliza tecnologías como HTML, CSS y JavaScript para construir y crear páginas web, garantizando que sean visualmente atractivas, funcionales y fáciles de usar.</p>
  <section>
-    <h2>Conceptos basicos de HTML</h2>
+    <h2 id="htmlBasis">Conceptos basicos de HTML</h2>
         <p>HTML es el lenguaje estándar para crear y estructurar páginas web. 
             Entre sus conceptos más basicos tenemos:
 
-            1. Etiquetas y Elementos
-            HTML utiliza etiquetas para crear elementos que estructuran el contenido de una página web. Cada etiqueta se escribe entre corchetes angulares (< >). Las etiquetas suelen venir en pares: una etiqueta de apertura (<etiqueta>) y una etiqueta de cierre (</etiqueta>).
-            
-            Etiqueta de apertura: <p>
-            Etiqueta de cierre: </p>
-            Elemento: <p>Este es un párrafo.</p>
+            <h3>1. Etiquetas y Elementos</h3>
+            HTML utiliza etiquetas para crear elementos que estructuran el contenido de una página web. Cada etiqueta se escribe entre corchetes angulares (<>). Las etiquetas suelen venir en pares: una etiqueta de apertura y una etiqueta de cierre.
 
-            2. Estructura Básica de un Documento HTML
+           <h3>2. Estructura Básica de un Documento HTML</h3>
             Un documento HTML típico incluye una estructura básica que consta de elementos esenciales:
          
-            <!DOCTYPE html>
-            <html lang="es">
-            <head>
-                <meta charset="UTF-8">
-                <title>Título de la Página</title>
-            </head>
-            <body>
-                <h1>Encabezado Principal</h1>
-                <p>Este es un párrafo de ejemplo.</p>
-            </body>
-            </html>
-            <!DOCTYPE html>: Define el tipo de documento y la versión de HTML (HTML5 en este caso).
-            <html>: Elemento raíz que envuelve todo el contenido de la página.
-            <head>: Contiene meta-información sobre el documento, como el título y enlaces a hojas de estilo.
-            <title>: Define el título de la página que aparece en la pestaña del navegador.
-            <meta charset="UTF-8">: Especifica la codificación de caracteres del documento.
-            <body>: Contiene el contenido visible de la página, como textos, imágenes, enlaces, etc.
-            3. Elementos Comunes
-            Algunos de los elementos más comunes en HTML incluyen:
-            
-            Encabezados: <h1> a <h6> para definir títulos y subtítulos, con <h1> siendo el más importante y <h6> el menos importante.
-            
+            <h4> Encabezados (h1 a h6)</h4>: Se usan para definir títulos y subtítulos, con h1 siendo el más importante y h6 el menos importante.
+
+        <h4>Párrafos (p)</h4> Se utilizan para agrupar bloques de texto.
+                
+                <h4>Enlaces a href="URL"</h4>: Permiten crear hipervínculos a otras páginas o recursos.
+                
+                <h4>Imágenes img src="ruta"</h4> Inserta imágenes en el documento.
+                
+                <h4>Listas</h4>
+                
+                No ordenadas (ul): Utilizadas para listas con viñetas.
+                Ordenadas (ol): Utilizadas para listas numeradas.
+                Elementos de lista (li): Definen cada ítem en una lista.
  </section>
  <section>
-    <h2>CSS</h2>
- </section>
+    <h2>¿Qué es el Desarrollo Backend?</h2>
+    <p>El desarrollo backend se refiere a la parte del sitio web o aplicación que opera detrás de escena y que los usuarios no ven directamente. A diferencia del frontend, que se ocupa de la interfaz de usuario y la experiencia visual, el backend se centra en la lógica de la aplicación, la gestión de bases de datos, la autenticación de usuarios, la lógica empresarial y la comunicación entre diferentes servicios y sistemas.</p>
+
+    <h3>Gestión de Bases de Datos</h3>
+
+        <p>El backend se encarga de interactuar con bases de datos para almacenar, recuperar, actualizar y eliminar datos. Esto incluye el uso de sistemas de gestión de bases de datos como MySQL, PostgreSQL, MongoDB, y otros. Los desarrolladores backend utilizan consultas SQL o consultas específicas de bases de datos NoSQL para manejar los datos.</p>
+        
+        <h3>Lógica del Servidor</h3>
+
+        <p>El backend implementa la lógica empresarial de la aplicación, que incluye reglas y procesos que deben seguirse para asegurar el correcto funcionamiento del sitio o aplicación. Por ejemplo, cuando un usuario realiza una compra en un sitio web de comercio electrónico, el backend procesa el pago, verifica el inventario y actualiza el estado del pedido.</p>
+        
+        <h3>Autenticación y Autorización</h3>
+
+        <p>Una parte crucial del backend es la gestión de la autenticación y autorización de usuarios. Esto implica verificar la identidad de los usuarios (autenticación) y asegurar que tengan los permisos necesarios para realizar ciertas acciones (autorización). Tecnologías y protocolos como OAuth, JWT y SSL/TLS son comunes en esta área.</p>
+</section>
+
+ 
  <section></section>
 
 
