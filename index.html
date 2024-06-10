@@ -9,12 +9,15 @@
 <body>
     <div class="sideBar">
         <h2 class="fixedh2">Documentation Bar</h2>
-        <ul>
-            <li><a href="#frontEnd">Desarrollo Web FrontEnd</li></a>
-            <li><a href="#htmlBasis">HTML</li></a> 
-            <li><a href="#backEnd">Desarrollo web Back-end</a></li>
-            <li>CSS</li>
+        <div class="myList">
+          
+            <ul >
+                <li><a href="#frontEnd">Desarrollo Web FrontEnd</li></a>
+                <li><a href="#htmlBasis">HTML</li></a> 
+                <li><a href="#backEnd">Desarrollo web Back-end</a></li>
+                <li><a href="#javaScript">JavaScript</li></a>
         </ul>
+        </div>
     </div>
     <div class="description">
  <h2 id="frontEnd">Desarrollo Web FrontEnd</h2>
@@ -30,22 +33,22 @@
            <h3>2. Estructura Básica de un Documento HTML</h3>
             Un documento HTML típico incluye una estructura básica que consta de elementos esenciales:
          
-            <h4> Encabezados (h1 a h6)</h4>: Se usan para definir títulos y subtítulos, con h1 siendo el más importante y h6 el menos importante.
+            <h4> Encabezados (h1 a h6)</h4>Se usan para definir títulos y subtítulos, con h1 siendo el más importante y h6 el menos importante.
 
         <h4>Párrafos (p)</h4> Se utilizan para agrupar bloques de texto.
                 
-                <h4>Enlaces a href="URL"</h4>: Permiten crear hipervínculos a otras páginas o recursos.
+                <h4>Enlaces a href="URL"</h4> Permiten crear hipervínculos a otras páginas o recursos.
                 
                 <h4>Imágenes img src="ruta"</h4> Inserta imágenes en el documento.
                 
                 <h4>Listas</h4>
                 
-                No ordenadas (ul): Utilizadas para listas con viñetas.
-                Ordenadas (ol): Utilizadas para listas numeradas.
-                Elementos de lista (li): Definen cada ítem en una lista.
+                <p>No ordenadas (ul): Utilizadas para listas con viñetas.</p>
+                <p>Ordenadas (ol): Utilizadas para listas numeradas.</p>
+                <p>Elementos de lista (li): Definen cada ítem en una lista.</p>
  </section>
  <section>
-    <h2>¿Qué es el Desarrollo Backend?</h2>
+    <h2 id="backEnd">¿Qué es el Desarrollo Backend?</h2>
     <p>El desarrollo backend se refiere a la parte del sitio web o aplicación que opera detrás de escena y que los usuarios no ven directamente. A diferencia del frontend, que se ocupa de la interfaz de usuario y la experiencia visual, el backend se centra en la lógica de la aplicación, la gestión de bases de datos, la autenticación de usuarios, la lógica empresarial y la comunicación entre diferentes servicios y sistemas.</p>
 
     <h3>Gestión de Bases de Datos</h3>
@@ -60,14 +63,30 @@
 
         <p>Una parte crucial del backend es la gestión de la autenticación y autorización de usuarios. Esto implica verificar la identidad de los usuarios (autenticación) y asegurar que tengan los permisos necesarios para realizar ciertas acciones (autorización). Tecnologías y protocolos como OAuth, JWT y SSL/TLS son comunes en esta área.</p>
 </section>
-
  
- <section></section>
+ <section>
+    <h2 id="javaScript">Conceptos básicos de JavaScript</h2>
+
+    <p>JavaScript es un lenguaje de programación que se utiliza para agregar interactividad y dinamismo a las páginas web. Aquí tienes algunos conceptos básicos para comenzar:</p>
+
+    <h3>Variables</h3>
+
+    <p>Se utilizan para almacenar datos.</p>
+        <p>let x = 5;</p>
+        <p>let y = 10;</p>
+        <p>const z = 15;</p>
+        <p>var= 'Hagamos que los ojos de Giacomo sangren utilizando var xD';</p>
+    
 
 
-
-
-
+    <h3>Tipos de datos</h3>
+    <p>Pueden ser números, cadenas de texto, booleanos, arreglos, objetos, etc.</p>
+<p>let nombre = "Juan";</p>
+<p>let edad = 25;</p>
+<p>let esMayor = true;</p>
+<p>let colores = ["rojo", "verde", "azul"];</p>
+<p>let persona = { nombre: "Ana", edad: 30 };</p>
+ </section>
 </div>
 </body>
 </html>
