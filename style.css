@@ -1,0 +1,14 @@
+.sideBar{
+    height: 50vh;
+    width: 30%;
+    position: fixed;
+    float: left;
+}
+
+.description{
+ width: 70%;
+height:100%-webkit-fill-available ;
+text-align: justify;
+float: right;
+overflow: scroll;
+}
